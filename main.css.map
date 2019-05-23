@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "d:/Golang/src/github.com/chaoshong/blog",
+	"sourceRoot": "d:/Golang/src/github.com/chaoshong/blogs",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
