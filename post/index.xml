@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Welcome to Mskeeter</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Welcome to Mskeeter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/post/201905/20190522%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/201905/20190522%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/</guid>
+      <description>数据库设计 一、背景和目的 &amp;emsp; 这是一个跨境电商的管理系统，实际上商业的本质其实是调度，将产品从生产者调度到消费者，消费者常用的平台有很多，国内有京东，淘宝，国外则是 eBay , Amazon 等平台。而生产者就很零散了，可能是自己的亲戚朋友的工厂，或者自己淘宝买东西买多了也就成了老客户了。总体来说可以是直营或者是分销。
+&amp;emsp; 本系统以前用 go 语言做过一个版本，但是是个三无产品，无设计，无架构，无流程，典型的想干嘛就干嘛，跟 996.ICU 是一点都沾不到边。
+&amp;emsp; 俗话说，浪子回头金不换，这次规规矩矩的把系统重新做好设计和重构。动起手来发现手头工具包有点不够用了，数据库设计 Power Designer ，产品原型 Axure ，需求跟踪 ClearQuest , 流程图 Visio ，思维导图 Xmind ，项目管理 Project 。装完这些电脑就跟乌龟差不多了。
+二、工具 &amp;emsp; 是否该换个思路呢，现在有很多的 online 版本都很好用的，google 一下，发现知乎还真有推荐， vertabelo ，一个类似 Power Designer 的工具，可以完成数据库表的设计，支持 PostgreSQL 、 MySQL 、 Oracle 、SQL Server 、SQLite 、IBM DB2 等主流数据库。完成后还可以导出 SQL 语句。 Ok，看来可以开始了。</description>
+    </item>
+    
+  </channel>
+</rss>
