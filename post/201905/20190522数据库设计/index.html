@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author"
-    content="">
+    content="map[name:Mr hong]">
 <meta name="description"
     content="数据库设计 一、背景和目的 &amp;emsp; 这是一个跨境电商的管理系统，实际上商业的本质其实是调度，将产品从生产者调度到消费者，消费者常用的平台有很多，国内有京东，淘宝，国外则是 eBay , Amazon 等平台。而生产者就很零散了，可能是自己的亲戚朋友的工厂，或者自己淘宝买东西买多了也就成了老客户了。总体来说可以是直营或者是分销。
 &amp;emsp; 本系统以前用 go 语言做过一个版本，但是是个三无产品，无设计，无架构，无流程，典型的想干嘛就干嘛，跟 996.ICU 是一点都沾不到边。
@@ -18,7 +18,7 @@
 
 <title>
     
-     :: Welcome to Mskeeter 
+    数据库设计 :: Welcome to Mskeeter 
     
 </title>
 
@@ -40,14 +40,15 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="theme-color" content="#252627">
-<meta itemprop="name" content="">
+<meta itemprop="name" content="数据库设计">
 <meta itemprop="description" content="数据库设计 一、背景和目的 &emsp; 这是一个跨境电商的管理系统，实际上商业的本质其实是调度，将产品从生产者调度到消费者，消费者常用的平台有很多，国内有京东，淘宝，国外则是 eBay , Amazon 等平台。而生产者就很零散了，可能是自己的亲戚朋友的工厂，或者自己淘宝买东西买多了也就成了老客户了。总体来说可以是直营或者是分销。
 &emsp; 本系统以前用 go 语言做过一个版本，但是是个三无产品，无设计，无架构，无流程，典型的想干嘛就干嘛，跟 996.ICU 是一点都沾不到边。
 &emsp; 俗话说，浪子回头金不换，这次规规矩矩的把系统重新做好设计和重构。动起手来发现手头工具包有点不够用了，数据库设计 Power Designer ，产品原型 Axure ，需求跟踪 ClearQuest , 流程图 Visio ，思维导图 Xmind ，项目管理 Project 。装完这些电脑就跟乌龟差不多了。
 二、工具 &emsp; 是否该换个思路呢，现在有很多的 online 版本都很好用的，google 一下，发现知乎还真有推荐， vertabelo ，一个类似 Power Designer 的工具，可以完成数据库表的设计，支持 PostgreSQL 、 MySQL 、 Oracle 、SQL Server 、SQLite 、IBM DB2 等主流数据库。完成后还可以导出 SQL 语句。 Ok，看来可以开始了。">
 
 
-
+<meta itemprop="datePublished" content="2019-05-22T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-05-22T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="55">
 
 
@@ -56,7 +57,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
-<meta name="twitter:title" content=""/>
+<meta name="twitter:title" content="数据库设计"/>
 <meta name="twitter:description" content="数据库设计 一、背景和目的 &emsp; 这是一个跨境电商的管理系统，实际上商业的本质其实是调度，将产品从生产者调度到消费者，消费者常用的平台有很多，国内有京东，淘宝，国外则是 eBay , Amazon 等平台。而生产者就很零散了，可能是自己的亲戚朋友的工厂，或者自己淘宝买东西买多了也就成了老客户了。总体来说可以是直营或者是分销。
 &emsp; 本系统以前用 go 语言做过一个版本，但是是个三无产品，无设计，无架构，无流程，典型的想干嘛就干嘛，跟 996.ICU 是一点都沾不到边。
 &emsp; 俗话说，浪子回头金不换，这次规规矩矩的把系统重新做好设计和重构。动起手来发现手头工具包有点不够用了，数据库设计 Power Designer ，产品原型 Axure ，需求跟踪 ClearQuest , 流程图 Visio ，思维导图 Xmind ，项目管理 Project 。装完这些电脑就跟乌龟差不多了。
@@ -65,6 +66,7 @@
 
 
 
+<meta property="article:published_time" content="2019-05-22 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -125,7 +127,7 @@
         </div>
 
         <article>
-            <h2 class="post-title"><a href="/post/201905/20190522%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/"></a></h2>
+            <h2 class="post-title"><a href="/post/201905/20190522%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/">数据库设计</a></h2>
 
             
 

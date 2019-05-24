@@ -6,14 +6,15 @@
     <description>Recent content in Posts on Welcome to Mskeeter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
+      <title>数据库设计</title>
       <link>/post/201905/20190522%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/201905/20190522%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/</guid>
       <description>数据库设计 一、背景和目的 &amp;emsp; 这是一个跨境电商的管理系统，实际上商业的本质其实是调度，将产品从生产者调度到消费者，消费者常用的平台有很多，国内有京东，淘宝，国外则是 eBay , Amazon 等平台。而生产者就很零散了，可能是自己的亲戚朋友的工厂，或者自己淘宝买东西买多了也就成了老客户了。总体来说可以是直营或者是分销。
