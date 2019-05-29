@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Welcome to Mskeeter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows 里 viper 取 GOPATH 环境变量失败的解决办法</title>
+      <link>/post/201905/20190528-windows%E5%8F%96gopath%E5%BC%82%E5%B8%B8/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/201905/20190528-windows%E5%8F%96gopath%E5%BC%82%E5%B8%B8/</guid>
+      <description>Windows 里 viper 取 GOPATH 环境变量失败的解决办法 问题 &amp;emsp; 使用 viper 取配置信息时，取 $GOPATH/src/dbconfig 目录下的配置文件，由于 Window 和 Linux 系统下的通配符不一样，用 runtime.GOOS 判断是 Window 或者 Linux ，然后使用分支分别填入配置信息的路径。代码如下：
+ Os := runtime.GOOS // 获取系统类型，win 系统用 %，linux 用 $ if Os == &amp;quot;windows&amp;quot; { //viper.AddConfigPath(&amp;quot;d:/golang/src/dbconfig&amp;quot;) viper.AddConfigPath(&amp;quot;/%GOPATH%/src/dbconfig&amp;quot;) fmt.Println(&amp;quot;windows&amp;quot;) } else { viper.AddConfigPath(&amp;quot;$GOPATH/src/config&amp;quot;) fmt.Println(&amp;quot;Linux&amp;quot;) }  &amp;emsp;以上代码会出现异常，异常如下：
+windows read DB error: %v Config File &amp;quot;db&amp;quot; Not Found in &amp;quot;[d:\\%GOROOT%\\src\\dbconfig]&amp;quot; db type is :%s , db string is : %s host= user= dbname= port= sslmode= password= `` is not officially supported, running under compatibility mode.</description>
+    </item>
     
     <item>
       <title>数据库设计</title>
